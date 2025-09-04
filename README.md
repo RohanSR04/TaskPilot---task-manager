@@ -69,9 +69,9 @@ cd task-manager
 Install dependencies:
 1. npm install
 2. cd frontend
-   npm i
+   -> npm i
 3. cd backend 
-   npm i
+   -> npm i
 
 Set up environment variables:
 cp .env.example .env
@@ -83,9 +83,10 @@ npm start
 
 Start the development server:
 1. cd backend
-   npx nodemon App.js
-2. cd backend
-   npx nodemon server.js
+   -> npx nodemon App.js
+2. Open new powershell window 
+3. cd backend
+   -> npx nodemon server.js
 
 
 🛠️ Built With
