@@ -66,28 +66,32 @@ TaskPilot is a comprehensive team task management application designed to stream
 git clone https://github.com/yourusername/teamflow-task-manager.git
 cd task-manager
 
+```
 Install dependencies:
 1. npm install
 2. cd frontend
    -> npm i
 3. cd backend 
    -> npm i
+```
 
 Set up environment variables:
 cp .env.example .env
 # Edit .env with your configuration
-
+```
 Start frontend:
 cd frontend 
 npm start
+```
 
+```
 Start the development server:
 1. cd backend
    -> npx nodemon App.js
 2. Open new powershell window 
 3. cd backend
    -> npx nodemon server.js
-
+```
 
 🛠️ Built With
 Frontend: React, Redux Toolkit, Tailwind CSS
@@ -101,34 +105,38 @@ Attachments: Cloudinary
 
 📁 Project Structure
 
-TaskPilot - task-manager/
-├── 📁 backend/                    # Node.js + Express Server
-│   ├── 📁 conn/                   # Database connection configuration
-│   ├── 📁 models/                 # MongoDB Mongoose Models & Schemas
-│   ├── 📁 routes/                 # Express API Routes & Controllers
-│   ├── 📁 utils/                  # Utility/Helper functions (e.g., email)
-│   ├── 🗋 .env                    # Environment variables
-│   ├── 🗋 app.js                  # Express app configuration
-│   ├── 🗋 package.json            # Backend dependencies & scripts
-│   ├── 🗋 package-lock.json       # Backend dependency lockfile
-│   ├── 🗋 server.js               # Server entry point
-│   └── 🗋 taskscheduler.js        # Background task/cron job logic
+## 📁 Project Structure
+
+```
+task-manager/
+├── backend/                    # Node.js + Express Server
+│   ├── conn/                   # Database connection configuration
+│   ├── models/                 # MongoDB Mongoose Models & Schemas
+│   ├── routes/                 # Express API Routes & Controllers
+│   ├── utils/                  # Utility/Helper functions (e.g., email)
+│   ├── .env                    # Environment variables
+│   ├── app.js                  # Express app configuration
+│   ├── package.json            # Backend dependencies & scripts
+│   ├── package-lock.json       # Backend dependency lockfile
+│   ├── server.js               # Server entry point
+│   └── taskscheduler.js        # Background task/cron job logic
 │
-└── 📁 frontend/                   # React Application
-    ├── 📁 public/                 # Static assets (HTML, images, etc.)
-    │   └── 🗋 logo.svg             # App logo
-    ├── 📁 src/
-    │   ├── 📁 assets/             # Other static assets (fonts, icons)
-    │   ├── 📁 components/         # Reusable React components
-    │   ├── 📁 pages/              # Main page components
-    │   ├── 📁 store/              # State management (Redux/Context)
-    │   ├── 🗋 App.css             # Main application styles
-    │   ├── 🗋 App.js              # Root React component
-    │   ├── 🗋 App.test.js         # Tests for the App component
-    │   ├── 🗋 index.css           # Global styles
-    │   └── 🗋 index.js            # React DOM rendering entry point
-    ├── 🗋 package.json            # Frontend dependencies & scripts
-    └── 🗋 package-lock.json       # Frontend dependency lockfile
+└── frontend/                   # React Application
+    ├── public/                 # Static assets (HTML, images, etc.)
+    │   └── logo.svg            # App logo
+    ├── src/
+    │   ├── assets/             # Other static assets (fonts, icons)
+    │   ├── components/         # Reusable React components
+    │   ├── pages/             # Main page components
+    │   ├── store/             # State management (Redux/Context)
+    │   ├── App.css            # Main application styles
+    │   ├── App.js             # Root React component
+    │   ├── App.test.js        # Tests for the App component
+    │   ├── index.css          # Global styles
+    │   └── index.js           # React DOM rendering entry point
+    ├── package.json           # Frontend dependencies & scripts
+    └── package-lock.json      # Frontend dependency lockfile
+```
 
 
 🤝 Contributing
