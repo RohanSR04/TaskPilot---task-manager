@@ -1,0 +1,6 @@
+.env
+/node_modules
+forntend/node_modules
+backend/node_modules
+/TaskPilot.pdf
+/users.txt
